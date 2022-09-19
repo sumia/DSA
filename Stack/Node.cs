@@ -6,7 +6,7 @@
         public Node<T> next { get; set; }
 
         public Node(T data) {
-            this.data = data
+            this.data = data;
         }
     }
 }
