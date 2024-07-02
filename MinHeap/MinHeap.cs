@@ -8,10 +8,10 @@ namespace MinHeap
         private int[] items;
         private int size;
 
-        public MinHeap(int size)
+        public MinHeap(int capacity)
         {
-            this.size = size;
-            items = new int[size];
+            items = new int[capacity];
+            size = 0;
         }
 
         public int GetLeftChildIndex(int pos) => 2 * pos + 1;
